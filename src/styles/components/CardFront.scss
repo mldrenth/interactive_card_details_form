@@ -1,0 +1,11 @@
+#card-front-container {
+    position: absolute;
+    background-image: url('../../images/bg-card-front.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 70%;
+  width: 70%;
+  z-index: 5000;
+    bottom: -25%;
+    left: 1rem;
+}

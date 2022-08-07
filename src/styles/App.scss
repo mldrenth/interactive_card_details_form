@@ -3,5 +3,29 @@
 body {
   font-size: variables.$primaryFontSize;
   font-family: variables.$font-stack;
-  margin: 0.5rem;
+}
+
+#gradient-container {
+  background-image: url('../images/bg-main-mobile.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+  position: relative;
+}
+
+#card-back {
+  background-image: url('../images/bg-card-back.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 70%;
+  width: 70%;
+  position: absolute;
+  top: 15%;
+  right:0;
+}
+
+#cvc-text {
+  position: absolute;
+  right: 4rem;
+  top: 33%;
 }
