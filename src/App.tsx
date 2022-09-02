@@ -5,6 +5,7 @@ import CardForm from './component/CardForm';
 import { CardFormInputs } from './types';
 import './styles/App.scss';
 
+
 function App() { 
   const methods = useForm<CardFormInputs>();
   const {watch} = methods;

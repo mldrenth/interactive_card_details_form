@@ -1,9 +1,57 @@
 @use 'variables';
 
+// Utility Classes
+.flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-content-evenly {
+  justify-content: space-evenly;
+}
+
+.text-upper {
+  text-transform: uppercase;
+}
+
 body {
   font-size: variables.$primaryFontSize;
   font-family: variables.$font-stack;
 }
+
+input {
+  padding: 0.75rem;
+  color: variables.$neutralVioletVeryDark;
+  font-weight: bold;
+  font-size: large;
+  margin: 0.5rem 0rem;
+  border: 1px solid variables.$neutralGrayVioletLight;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+::placeholder{
+  color: variables.$neutralGrayVioletLight;
+}
+
+label {
+  font-size: small;
+  color: variables.$neutralVioletVeryDark;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  display: block;
+  
+}
+
+label:after { content: ": " }
 
 #gradient-container {
   background-image: url('../images/bg-main-mobile.png');
@@ -29,3 +77,5 @@ body {
   right: 4rem;
   top: 33%;
 }
+
+
