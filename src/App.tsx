@@ -10,11 +10,12 @@ function App() {
   const methods = useForm<CardFormInputs>();
   const {watch} = methods;
   const watchAllFields = watch();
+  const watchCVC = watch("cvc")
 
   return (
     <div className="App">
       <div id="gradient-container">
-      <div id="card-back"><p id="cvc-text">000</p></div>
+      <div id="card-back"><p id="cvc-text">{watchCVC}</p></div>
       <CardFront />
       </div>
       <FormProvider {...methods} >
