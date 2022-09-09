@@ -1,6 +1,6 @@
 export type CardFormInputs = {
     name: string,
-    cardNumber: number,
+    cardNumber: string,
     month: Month,
     year: number,
     cvc: number
