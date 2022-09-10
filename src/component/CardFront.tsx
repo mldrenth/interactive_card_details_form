@@ -14,7 +14,7 @@ const CardFront = ({cardNumber, name, month, year} : CardFormInputs) => {
     return (
         <div id='card-front-container' className='text-white p-1'>
             <img src={logo} alt='card logo'></img>
-            <p className='mt-3 text-center font-large word-space letter-space'>{formated}</p>
+            <p className='mt-1 text-center font-large word-space letter-space'>{formated}</p>
             <div className='flex flex-row justify-content-between font-small mt-1'><p className='text-upper'>Jane Appleseed</p><p>00/00</p></div>
 
         </div>

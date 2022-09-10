@@ -41,16 +41,14 @@
   margin-top: 1rem;
 }
 
-.mt-3 {
-  margin-top: 3rem;
-}
+
 
 .font-small {
-  font-size: small;
+  font-size: 0.7em;
 }
 
 .font-large {
-  font-size: 28px;
+  font-size: 1.1em;
 }
 
 .word-space {
@@ -60,6 +58,14 @@
 
 .letter-space {
   letter-spacing: .1rem;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.space-nowrap {
+  white-space: nowrap;
 }
 
 body {

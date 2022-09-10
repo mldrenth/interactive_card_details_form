@@ -20,7 +20,7 @@ const CardForm = () => {
 
 
                 <div className='small-input'>
-                    <label htmlFor='month' className='text-upper'>Exp. Date</label>
+                    <label htmlFor='month' className='text-upper overflow-hidden space-nowrap'>Exp. Date</label>
                     <input className='small-input'  id="month" placeholder='MM' {...register('month')} />
                 </div>
                 <div   className='small-input'>
