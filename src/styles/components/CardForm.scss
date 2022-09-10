@@ -5,6 +5,16 @@
     grid-template-columns: 1fr 1fr;
 }
 
+@media screen and (min-width: 45em) {  
+    #card-form {
+        place-self: center;
+        width: 50%;
+        margin-bottom: 3rem;
+        
+    }
+    
+}
+
 .full-width {
     grid-column: 1 / -1;
 }

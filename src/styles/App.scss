@@ -53,7 +53,7 @@
 
 .word-space {
   word-spacing: .3rem;
-  
+
 }
 
 .letter-space {
@@ -118,6 +118,14 @@ label:after {
   position: relative;
 }
 
+@media screen and (min-width: 45em) {
+  #gradient-container {
+    background-image: url('../images/bg-main-desktop.png');
+    height: 100vh;
+    grid-row: 1/-1;
+  }
+}
+
 #card-back {
   background-image: url('../images/bg-card-back.png');
   background-repeat: no-repeat;
@@ -129,8 +137,23 @@ label:after {
   right: 0;
 }
 
+@media screen and (min-width: 45em) {
+  #card-back {
+    top: 55%;
+    right: -25%
+  }
+}
+
 #cvc-text {
   position: absolute;
   right: 4rem;
   top: 33%;
+}
+
+@media screen and (min-width: 45em) {
+  .App {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 100vh;
+  }
 }

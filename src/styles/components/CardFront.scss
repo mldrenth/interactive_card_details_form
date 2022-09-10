@@ -9,3 +9,11 @@
   bottom: -25%;
   left: 1rem;
 }
+
+@media screen and (min-width: 45em) { 
+  #card-front-container {
+    bottom: 0;
+    left: 40%;
+    
+  }
+}
